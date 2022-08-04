@@ -1011,7 +1011,7 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   position: fixed;
   left: 0;
   top: 60px;
@@ -1026,7 +1026,7 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   position: absolute;
   right: 0;
   top: 60px;
@@ -1080,7 +1080,7 @@ About Style
 --------------------------------------------- 
 */
 
-/*#about {
+#about {
   padding-top: 130px;
 }
 
@@ -1335,7 +1335,7 @@ HEREIS END OF COMMENT, JUST DELETED SO EVERYTHING WOULD BE A COMMENT. REMEMBER T
 Services Style
 --------------------------------------------- 
 */
-/* ANOTHER COMMENT THAT SHOULD BE DELETED
+ ANOTHER COMMENT THAT SHOULD BE DELETED
 .services {
   padding-top: 130px;
   position: relative;
@@ -1343,7 +1343,7 @@ Services Style
 
 .services:after {
   content: '';
-  background-image: url(../images/services-left-dec.jpg);
+  /*background-image: url(../images/services-left-dec.jpg);*/
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
