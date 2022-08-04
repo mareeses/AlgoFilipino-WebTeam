@@ -124,10 +124,10 @@ ul {
 }
 
 p {
-  font-size: 20px;
+  font-size: 25px;
   line-height: 30px;
   font-weight: 300;
-  color: #c51515;
+  color: black;
 }
 
 img {
@@ -189,30 +189,32 @@ body {
 }
 
 .section-heading h6 {
-  font-size: 15px;
+  font-size: 25px;
   font-weight: 700;
-  color: #726ae3;
+  color: #fed266;
+  text-shadow: 2px 2px dimgray;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
 
 .section-heading h4 {
-  color: #2a2a2a;
-  font-size: 35px;
+  color: #FF5757;
+  font-size: 60px;
+  text-shadow: 2px 2px gray;
   font-weight: 700;
-  text-transform: capitalize;
+  text-transform: uppercase;
   margin-bottom: 25px;
 }
 
 .section-heading h4 em {
   font-style: normal;
-  color: #726ae3;
+  color: #5271FF;
 }
 
 .section-heading .line-dec {
   width: 50px;
   height: 2px;
-  background-color: #726ae3;
+  background-color: #fed266;
 }
 
 .border-first-button a {
@@ -248,11 +250,11 @@ intro
 
 .intro-banner:after {
   content: '';
-  /*background-image: url(../img/background-img-mobile.png);
-  background-repeat: no-repeat;*/
+  background-image: url(../img/background-img-mobile.png);
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   position: absolute;
   left: 0;
   top: 0px;
@@ -459,7 +461,7 @@ header
 
 .header-area .main-nav {
   min-height: 80px;
-  background: transparent;
+  background: #f1f1f1;
 }
 
 .header-area .main-nav .logo {
@@ -1007,11 +1009,11 @@ Banner Style
 
 .main-banner:after {
   content: '';
-  /*background-image: url(../img/background-img-mobile.png);
+  background-image: url(../img/background-img-mobile.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;*/
+  background-attachment: fixed;
   position: fixed;
   left: 0;
   top: 60px;
@@ -1089,7 +1091,7 @@ About Style
 }
 
 .about-right-content p {
-  margin-top: 30px;
+  margin-top: 21px;
   margin-bottom: 45px;
 }
 
@@ -1719,8 +1721,9 @@ Blog
 
 .blog:before {
   content: '';
-  background-image: url(../images/blog-left-dec.jpg);
-  background-repeat: no-repeat;
+  /*background-image: url(../images/blog-left-dec.jpg);
+  background-repeat: no-repeat;*/
+  background: transparent;
   position: absolute;
   left: 0;
   top: 0px;
@@ -1745,7 +1748,7 @@ Blog
 
 .show-up {
   position: relative;
-  z-index: 200;
+  z-index: 2;
 }
 
 .blog-post {
@@ -1832,6 +1835,8 @@ Blog
 .post-item .thumb img {
   border-radius: 23px;
   display: inline-block;
+  max-width: 230px;
+  max-height: 240px;
 }
 
 .post-item .right-content {
@@ -1858,7 +1863,7 @@ Blog
 .post-item .right-content h4 {
   font-size: 20px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #b33d3d;
   margin-top: 20px;
   margin-bottom: 20px;
   line-height: 30px;
