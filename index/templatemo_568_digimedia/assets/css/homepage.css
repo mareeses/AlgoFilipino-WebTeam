@@ -260,7 +260,7 @@ body {
 .section-heading h6 {
   font-size: 15px;
   font-weight: 700;
-  color: #726ae3;
+  color: #5271ff;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
@@ -281,19 +281,21 @@ body {
 .section-heading .line-dec {
   width: 50px;
   height: 2px;
-  background-color: #726ae3;
+  background-color: #5271ff;
 }
 
 .border-first-button a {
   display: inline-block !important;
   padding: 10px 20px !important;
-  color: #eee01d !important;
-  border: 2px solid #eee01d !important;
+  color: #ffffff !important;
+  /*border: 2px solid #ff5757  !important;*/
+  background-color: #002658;
   border-radius: 23px;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
   transition: all .5s;
 }
+
 
 .border-first-button a:hover {
   background-color: #eee01d;
@@ -1762,6 +1764,7 @@ Portfolio
   padding: 18px 0px;
   border-bottom-right-radius: 23px;
   border-bottom-left-radius: 23px;
+
 }
 
 .portfolio-item .down-content h4 {
@@ -1843,12 +1846,13 @@ Blog
 
 .show-up {
   position: relative;
-  z-index: 200;
+  z-index: 2;
 }
 
 .blog-post {
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   border-radius: 25px;
+  
 }
 
 .blog-post .thumb img {
@@ -1865,9 +1869,9 @@ Blog
 
 .blog-post .down-content span.category {
   font-size: 15px;
-  color: #fff;
+  color: #eee01d;
   padding: 8px 12px;
-  background-color: #726ae3;
+  background-color: #e92c2c;
   border-radius: 18px;
   display: inline-block;
 }
@@ -1883,7 +1887,7 @@ Blog
 .blog-post .down-content h4 {
   font-size: 20px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #002658;
   margin-top: 20px;
   margin-bottom: 20px;
   line-height: 30px;
