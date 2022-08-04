@@ -104,7 +104,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
-  background-color: #fff;
+  background-color: #F1F1F1;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -149,7 +149,7 @@ global styles
 */
 html,
 body {
-  background: #fff;
+  background: #F1F1F1;
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -248,8 +248,8 @@ intro
 
 .intro-banner:after {
   content: '';
-  background-image: url(../img/background-img-mobile.png);
-  background-repeat: no-repeat;
+  /*background-image: url(../img/background-img-mobile.png);
+  background-repeat: no-repeat;*/
   background-position: center;
   background-size: cover;
   /* background-attachment: fixed; */
@@ -1007,11 +1007,11 @@ Banner Style
 
 .main-banner:after {
   content: '';
-  background-image: url(../img/background-img-mobile.png);
+  /*background-image: url(../img/background-img-mobile.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed;*/
   position: fixed;
   left: 0;
   top: 60px;
@@ -1335,7 +1335,6 @@ HEREIS END OF COMMENT, JUST DELETED SO EVERYTHING WOULD BE A COMMENT. REMEMBER T
 Services Style
 --------------------------------------------- 
 */
- ANOTHER COMMENT THAT SHOULD BE DELETED
 .services {
   padding-top: 130px;
   position: relative;
@@ -1343,8 +1342,8 @@ Services Style
 
 .services:after {
   content: '';
-  /*background-image: url(../images/services-left-dec.jpg);*/
-  background-repeat: no-repeat;
+  /*background-image: url(../images/services-left-dec.jpg);
+  background-repeat: no-repeat;*/
   position: absolute;
   left: 0;
   top: 0px;
