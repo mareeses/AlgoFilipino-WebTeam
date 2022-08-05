@@ -1608,7 +1608,46 @@ Services Style
   font-weight: 400;
 }
 
+/*
+---------------------------------------------
+Ending Section
+---------------------------------------------
+*/
 
+
+.ending-heading {
+  position: relative;
+  z-index: 2;
+}
+
+.ending-heading h1 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #FEE266;
+  text-shadow: 2px 2px dimgray;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.ending-heading h1 span {
+  color: #FF5757;
+  font-size: 25px;
+  text-shadow: 2px 2px gray;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.ending-heading h1 em {
+  font-style: normal;
+  color: #5271FF;
+}
+
+.ending-heading .line-dec {
+  width: 80px;
+  height: 2px;
+  background-color: #fed266;
+}
 
 /* 
 ---------------------------------------------
