@@ -102,7 +102,7 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif, "Open Sans", monospace;
   font-weight: 400;
   background-color: #F1F1F1;
   -ms-text-size-adjust: 100%;
@@ -150,7 +150,7 @@ global styles
 html,
 body {
   background: #F1F1F1;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif, "Open Sans", monospace;
 }
 
 ::selection {
@@ -1095,6 +1095,98 @@ About Style
   margin-bottom: 45px;
 }
 
+.column-a {
+  float: left;
+  width: 25%;
+}
+
+.column-a p {
+  font-size: 20px;
+  padding-right : 10px; 
+  font-style: italic ;
+  font-family: "Courier New";
+}
+
+.column-a img{
+  width: 70%;
+}
+
+.column-a h4 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fed266;
+  text-shadow: 2px 2px dimgray;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+
+}
+.column-a h6 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #fed266;
+  text-shadow: 2px 2px dimgray;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+
+.column-b {
+  float: left;
+  width: 25%;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  padding-right: 25px;
+}
+
+.column-b p {
+  font-size: 20px;
+  padding-right : 10px; 
+  font-style: italic ;
+}
+
+.column-b img{
+  width: 70%;
+}
+
+.column-b h4 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fed266;
+  text-shadow: 2px 2px dimgray;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+
+}
+.column-b h6 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #fed266;
+  text-shadow: 2px 2px dimgray;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#team-left-content {
+  margin-right: 45px;
+  box-shadow: 5px 10px 8px red;
+}
+
+#team-right-content {
+  margin-top: 21px;
+  margin-bottom: 45px;
+
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+}
+
 .skills-content {
   position: relative;
   z-index: 1;
@@ -1203,6 +1295,12 @@ About Style
   text-transform: none;
   color: #afafaf;
   font-weight: 300;
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* This for loop creates the  necessary css animation names 
