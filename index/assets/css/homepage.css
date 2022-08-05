@@ -2327,4 +2327,11 @@ responsive
   form#contact {
     padding: 30px;
   }
+  .column-b{
+    float: none;
+    width: 100%;
+    text-align: center,justify;
+    display: inline-block;
+    margin: 25px 10px
+}
 }
