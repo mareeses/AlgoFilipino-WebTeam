@@ -1104,7 +1104,7 @@ About Style
   font-size: 20px;
   padding-right : 10px; 
   font-style: italic ;
-  font-family: "Courier New";
+  
 }
 
 .column-a img{
@@ -1925,7 +1925,7 @@ Blog
 .blog-post .down-content h4 {
   font-size: 20px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #b33d3d;
   margin-top: 20px;
   margin-bottom: 20px;
   line-height: 30px;
@@ -2027,11 +2027,13 @@ contact
 }
 
 .contact-us .section-heading h6 {
-  font-size: 15px;
-  font-weight: 700;
-  color: #726ae3;
-  text-transform: uppercase;
-  margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fed266;
+    text-shadow: 2px 2px dimgrey;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
 }
 
 .contact-us.section-heading h4 {
@@ -2055,7 +2057,7 @@ contact
 
 
 form#contact:before {
-  background-image: url(../images/contact-top-right-v2.png);
+  background-image: url(../images/contact-top-right-v3.png);
   color: #FF5757;
   position: absolute;
   right: 0;
@@ -2075,7 +2077,7 @@ form#contact:before {
 }
 
 form#contact:after {
-  background-image: url(../images/contact-bottom-right-v2.png);
+  background-image: url(../images/contact-bottom-right-v3.png);
   position: absolute;
   right: 0;
   bottom: 0;
@@ -2124,7 +2126,7 @@ form#contact #map iframe {
 }
 
 .fill-form .icon a {
-  margin-top: 15px;
+  margin-top: 25px;
   display: inline-block;
   font-size: 13px;
   font-weight: 500;
@@ -2178,24 +2180,83 @@ form#contact textarea::placeholder {
 
 form#contact button {
   display: inline-block;
-  background-color: #fff;
-  font-size: 15px;
+  background-color: #F2F2F2;
+  font-size: 20px;
   font-weight: 400;
-  color: rgb(255, 88, 88);
+  color: #FF5757;
   margin-top: 30px;
   width: 100%;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
   letter-spacing: 0.25px;
-  border: 1px solid rgb(255, 88, 88);
+  border: 3px solid #FEE266;
   transition: all .3s;
   outline: none;
 }
 
 form#contact button:hover {
-  background-color: rgb(255, 88, 88) !important;
-  color: #fff!important;
+  background-color: #FEE266 !important;
+  color: #5271FF!important;
+}
+
+/*
+---------------------------------------------
+footer
+---------------------------------------------
+*/
+footer{
+  padding-top: 100px;
+  position: relative;
+}
+
+footer .logo{
+  width: 150px;
+  position: relative;
+  padding-bottom: 20px;
+
+}
+footer .social-media {
+  text-align: center;
+}
+
+footer .social-media a {
+  background-color: #F2F2F2;
+  color: #333333;
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  line-height: 65px;
+  border-radius: 50%;
+  padding: 4px 3px 0 3px;
+  text-align: center;
+  font-size: 45px;
+  transition: all .3s; margin-right: 25px;}
+
+footer .copyright{
+  position: relative;
+}
+
+footer .copyright p{
+  color: white;
+  padding-top: 12px;
+  font-size: 15px;
+}
+footer .icons {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-logo {
+    float: left;
+    width: 50%;
+}
+
+.left-logo p{
+  font-style:normal; 
+  font-size: 30px; 
+  color:white;
 }
 
 /* 
@@ -2214,6 +2275,22 @@ responsive
   }
   .header-area .main-nav .nav li:last-child {
     padding-left: 20px;
+  }
+  .column-b{
+    float: none;
+    width: 100%;
+    text-align: center,justify;
+    display: inline-block;
+  }
+  .column-a{
+    float: none;
+    width: 100%;
+    text-align: center,justify;
+    display: inline-block;
+  }
+  .column-a p {
+  font-size: 20px;
+  font-style: italic ;
   }
 }
 
@@ -2284,9 +2361,60 @@ responsive
   .contact-info {
     margin-top: 60px;
   }
+  .left-logo{
+    float: none;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .left-logo p {
+
+  }
+  .copyright{
+    padding: none;
+    margin-left: none;
+  }
+  .copyright p{
+    font-size: 20px;
+    margin-left: none;
+    padding: none;
+  }
   form#contact {
     padding: 45px;
   }
+
+  footer .social-media a {
+    background-color: #F2F2F2;
+    color: #333333;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 40px;
+    border-radius: 50%;
+    min-width: 4px;
+    padding: 4px 3px 0 3px;
+    text-align: center;
+    font-size: 25px;
+    transition: all .3s; margin-right: 25px;}
+
+  .column-b{
+    float: none;
+    width: 100%;
+    text-align: center,justify;
+    display: inline-block;
+    margin: 25px 10px
+  }
+  .column-a{
+    float: none;
+    width: 100%;
+    text-align: center,justify;
+    display: inline-block;
+    margin: 25px 10px
+  }
+  .column-a p {
+  font-size: 20px;
+  font-style: italic ;
+  }
+
 }
 
 @media (max-width: 767px) {
@@ -2375,5 +2503,16 @@ responsive
     text-align: center,justify;
     display: inline-block;
     margin: 25px 10px
-}
+  }
+  .column-a{
+    float: none;
+    width: 100%;
+    text-align: center,justify;
+    display: inline-block;
+    margin: 25px 10px
+  }
+  .column-a p {
+  font-size: 20px;
+  font-style: italic ;
+  }
 }
