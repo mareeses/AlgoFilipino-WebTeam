@@ -1,7 +1,7 @@
 function sendEmail() {
   Email.send({
       SecureToken : "51eaed79-1e33-457f-82da-509c75a6b888",
-      To : 'vrixenmendoza@gmail.com',
+      To : 'kumusta@algofilipino.com',
       From : 'vrixen2000@gmail.com',
       Subject : document.getElementById("subject").value,
       Body : "Name : " + document.getElementById("name").value 
